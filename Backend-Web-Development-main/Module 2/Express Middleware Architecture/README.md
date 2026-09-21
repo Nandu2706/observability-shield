@@ -23,3 +23,7 @@ Open the files and complete the following TODO blocks:
 5. `routes/posts.js` — Mount the `auditWrite` middleware per-route on the `POST` endpoint only.
 
 See `question.md` for the full brief and testing examples.
+## Observability Shield
+
+The API now includes request ID tracing, response logging, execution timing,
+and per-route audit logging for post creation.
